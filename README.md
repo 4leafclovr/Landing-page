@@ -21,5 +21,5 @@ https://www.pexels.com/photo/unrecognizable-workers-processing-green-tea-6713020
 Ivan Samkov - tea selection 
 https://www.pexels.com/photo/tea-leaves-on-a-piece-of-bamboo-8951987/
 
-Angela Roma - enjoy tea 
-https://www.pexels.com/photo/traditional-tea-set-and-chinese-baozi-served-on-table-7364197/
+NIKOLAY OSMACHKO - enjoy tea 
+https://www.pexels.com/photo/white-ceramic-teapot-beside-cup-with-leaves-229493/
