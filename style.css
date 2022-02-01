@@ -61,6 +61,7 @@ button {
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
+    padding: 0 25px;
 }
 
 .teabag {
@@ -70,28 +71,28 @@ button {
 
 .body {
     text-align: center;
-        
+    
+}
+
+.photos {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .content {
-    display: flex;
-    flex: 1;
-    padding: 20px;
-    margin: 100px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    
 }
 
-.polaroid {
-    height: 80%;
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    border-radius: 10px;
-}
 
-.container {
+.caption {
     text-align: center;
     padding: 10px 20px;
+    display: block;
 
 }
 
@@ -117,4 +118,6 @@ button {
     align-items: center;
     justify-content: space-between;
 }
+
+
 
