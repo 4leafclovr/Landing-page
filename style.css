@@ -3,20 +3,23 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    
 }
 
 
 header {
     background-color: #1f2937;
     display: flex;
-    flex-shrink: 0;
+    flex: 1 0 0%;
     flex-direction: column;
+    padding: 20px 200px;
+    align-items: space-evenly;
 }
 
 .topheader {
     padding: 8px;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -71,13 +74,13 @@ button {
 
 .body {
     text-align: center;
-    
+
 }
 
 .photos {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .content {
@@ -109,15 +112,24 @@ button {
 }
 
 .click-here {
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #3882f6;
     color: white;
-    padding: 50px;
+    padding: 30px 50px;
     margin: 100px;
+    border: 0 150px;
     display: flex;
+    flex-basis: max-content;
     align-items: center;
     justify-content: space-between;
+    
 }
 
+.nest {
+    display: flex;
+    flex-direction: column;
+}
 
-
+footer {
+    text-align: center;
+}
