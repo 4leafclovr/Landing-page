@@ -1,9 +1,8 @@
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    flex-direction: column;
+
     margin: 0;
-    
+    padding: 0;
 }
 
 
@@ -13,7 +12,8 @@ header {
     flex: 1 0 0%;
     flex-direction: column;
     padding: 20px 200px;
-    align-items: space-evenly;
+    
+    
 }
 
 .topheader {
@@ -72,12 +72,18 @@ button {
     width: auto;
 }
 
-.body {
+div.body {
     text-align: center;
-
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 0%;
+    align-items: center;
+    
 }
 
 .photos {
+    padding: 60px;
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
@@ -87,7 +93,7 @@ button {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 120px;
+    width: 300px;
     
 }
 
@@ -105,6 +111,7 @@ button {
     font-style: light-italic;
     color: #1f2937;
     padding: 100px;
+    margin: 50px 0;
     display: flex;
     flex: 1;
     align-items: center;
@@ -115,11 +122,12 @@ button {
     border-radius: 20px;
     background-color: #3882f6;
     color: white;
-    padding: 30px 50px;
+    padding: 30px 20px;
     margin: 100px;
-    border: 0 150px;
+    width: 550px;
+    max-width: 100%;
     display: flex;
-    flex-basis: max-content;
+    flex: 1 0 0%;
     align-items: center;
     justify-content: space-between;
     
