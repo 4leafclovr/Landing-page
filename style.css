@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
 }
@@ -21,6 +22,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .logo {
@@ -78,6 +80,7 @@ div.body {
     display: flex;
     flex-direction: column;
     flex: 0 0 0%;
+    flex-wrap: wrap;
     align-items: center;
     
 }
@@ -85,6 +88,7 @@ div.body {
 .photos {
     padding: 60px;
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-evenly;
 }
@@ -139,5 +143,6 @@ div.body {
 }
 
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
